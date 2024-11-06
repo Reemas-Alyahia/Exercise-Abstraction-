@@ -21,6 +21,7 @@ public class Book extends Prudect {
     @Override
     public double getDiscount() {
 
-        return getPrice()*0.15;
+        return getPrice()-(getPrice()*0.15);
+    
     }
 }
