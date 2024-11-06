@@ -21,6 +21,6 @@ public class Movie extends Prudect {
     @Override
     public double getDiscount() {
         //"%.2f";
-        return getPrice()*0.10;
+         return getPrice()-(getPrice()*0.10);
     }
 }
