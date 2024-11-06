@@ -5,8 +5,8 @@ public class Main {
 
         Book b1=new Book("something",56.8,"Ali");
         Movie m1=new Movie("Hope",97.4,"khled");
-        System.out.println("Congratulations, you got a discount %!5 on this book:  "+b1.getDiscount());
-        System.out.println("Congratulations, you got a discount %10 on this move:  "+m1.getDiscount());
+     System.out.println("Congratulations, you got a discount %!5 on this book:  "+String.format("%.2f",b1.getDiscount()));
+        System.out.println("Congratulations, you got a discount %10 on this move:  "+String.format("%.2f",m1.getDiscount()));
 
 
     }
