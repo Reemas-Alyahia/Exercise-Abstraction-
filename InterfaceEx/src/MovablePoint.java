@@ -53,7 +53,7 @@ public class MovablePoint implements Movable{
 
     @Override
     public void moveDown() {
-        y-=xSpeed;
+        y-=ySpeed;
         System.out.println("now i moved down "+ x +" "+ y );
 
 
